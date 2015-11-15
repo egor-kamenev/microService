@@ -1,11 +1,70 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="">
 <head>
-    <meta charset="UTF-8">
-    <title></title>
+    <meta charset="utf-8">
+    <title>Semrush</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
 </head>
 <body>
-<a class="clickMe" href onclick="return false;">Load Module</a>
+
+<div class="body">
+
+    <div class="tab-view">
+        <ul class="tab-view__tabs-container">
+            <li class="tab-view__tab tab-view__tab--active" data-tab="autoTab">Автомобили</li>
+            <li class="tab-view__tab" data-tab="favoriteTab">Избранное</li>
+            <li class="tab-view__tab" data-tab="statisticsTab">Статистика</li>
+        </ul>
+        <div id="autoTab" class="tab-view__content tab-view__content--active">
+            <ul id="filter" class="filter">
+            </ul>
+
+            <table class="table">
+                <thead>
+                <tr class="table__header">
+                    <th class="table__foto-header">Фото</th>
+                    <th class="table__model-header">Модель</th>
+                    <th class="table__description-header">Описание</th>
+                    <th class="table__favorite-header">Избранное</th>
+                </tr>
+                </thead>
+                <tbody id="carsTbody" class="table__body"></tbody>
+            </table>
+
+        </div>
+        <div id="favoriteTab" class="tab-view__content">
+            <div id="favoritesCounter" class="counter"></div>
+            <table class="table">
+                <thead>
+                <tr class="table__header">
+                    <th class="table__foto-header">Фото</th>
+                    <th class="table__model-header">Модель</th>
+                    <th class="table__description-header">Описание</th>
+                    <th class="table__favorite-header">Избранное</th>
+                </tr>
+                </thead>
+                <tbody id="favoritesTbody" class="table__body">
+                </tbody>
+            </table>
+        </div>
+        <div id="statisticsTab" class="tab-view__content"></div>
+    </div>
+
+</div>
+
+<div id="photo-enlarge" class="photo-enlarge"></div>
+
+
+<a class="clickMe" href onclick="return false;">Load App</a>
 <script data-main="main" src="require.js"></script>
+
 </body>
 </html>
+
+
+

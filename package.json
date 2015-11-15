@@ -1,0 +1,23 @@
+{
+  "name": "SemRush",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/egor-kamenev/microService.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/egor-kamenev/microService/issues"
+  },
+  "homepage": "https://github.com/egor-kamenev/microService",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-replace": "^0.11.0"
+  }
+}

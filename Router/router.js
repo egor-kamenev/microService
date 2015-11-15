@@ -10,7 +10,7 @@ define(['jquery', 'underscore', 'backbone'], function ($, _, Backbone) {
     },
 
     module: function(){
-      require(['http://192.168.56.1:8080/module.js']);
+      require(['http://192.168.56.1:8080/12d39ef0.main.js']);
     }
   });
 
