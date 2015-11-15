@@ -1,0 +1,20 @@
+{
+  "name": "SemRush",
+  "authors": [
+    "Egor Kamenev <egor.kamenev@gmail.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
